@@ -16,7 +16,6 @@ public class Main {
         arrayService.everyThirdCube(arrayOfNumbers);
         System.out.println("Масив з кожним третім значенням в кубі: "
                 + Arrays.toString(arrayOfNumbers));
-
         Lock lock = new Lock(arrayOfNumbers);
         lock.printArray();
     }
