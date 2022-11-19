@@ -9,7 +9,7 @@ public class ArrayService {
     Scanner scanner = new Scanner(System.in);
 
     public int createLength() {
-        System.out.println("Введіть розмір масиву чисел (від 1 до 10):");
+        System.out.println("Введіть розмір масиву чисел (від 10 та більше):");
         int length = scanner.nextInt();
         while (length < 10) {
             System.out.println("Введено некоректне значення! %n" +
